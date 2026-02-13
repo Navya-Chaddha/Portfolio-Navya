@@ -6,7 +6,7 @@ const coreValues = [
 { title: "Creativity", description: "I approach problems with originality,blending logic with imaginative thinking." },
 { title: "Collaboration", description: "I believe that the strongest ideas emerge when diverse minds think together." },
 { title: "Discipline", description: "I commit to consistent effort and focused execution in everything I pursue." },
-{ title: "Integrity", description: "I stay grounded in honesty,accounttability and doing what is right even when it is difficult." },
+{ title: "Integrity", description: "I stay grounded in honesty,accountability and doing what is right even when it is difficult." },
 { title: "Visionary", description: "I think beyond the present,designing solutions with long-term impact in mind." }];
 
 
