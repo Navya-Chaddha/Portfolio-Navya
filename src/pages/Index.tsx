@@ -3,11 +3,11 @@ import profilePhoto from "@/assets/profile-placeholder.jpg";
 import { ChevronLeft, ChevronRight, Mail, Linkedin, Github, BookOpen, Download, ExternalLink } from "lucide-react";
 
 const coreValues = [
-{ title: "Creative Expression", description: "Clarity of thought deserves clarity of voice. I value writing and storytelling as tools to communicate complex ideas meaningfully." },
-{ title: "Collaboration", description: "Respecting collective intelligence" },
-{ title: "Collaboration", description: "Great things are built together. I value diverse perspectives and thrive in environments where ideas flow freely." },
-{ title: "Excellence", description: "I hold myself to the highest standards, delivering quality work that speaks for itself and exceeds expectations." },
-{ title: "Impact", description: "I'm driven by the desire to create meaningful change — building solutions that matter and leave a lasting impression." }];
+{ title: "Creativity", description: "I approach problems with originality,blending logic with imaginative thinking." },
+{ title: "Collaboration", description: "I believe that the strongest ideas emerge when diverse minds think together." },
+{ title: "Discipline", description: "I commit to consistent effort and focused execution in everything I pursue." },
+{ title: "Integrity", description: "I stay grounded in honesty,accounttability and doing what is right even when it is difficult." },
+{ title: "Visionary", description: "I think beyond the present,designing solutions with long-term impact in mind." }];
 
 
 const skills = [
@@ -17,37 +17,35 @@ const skills = [
 
 const projects = [
 {
-  title: "E-Commerce Platform",
-  description: "A full-stack e-commerce application with user authentication, product management, cart functionality, and payment integration.",
-  tech: ["React", "Node.js", "MongoDB"],
-  link: "#"
+  title: "TerraLoop",
+    description: "Led a team to build a sustainability app for a college hackathon, tackling India's ₹92,000 crore fruit and vegetable waste problem. Developed the full-stack architecture and integrated AI for freshness detection and automated market listings, featuring a gamified user experience.",
+    tech: ["React", "Node.js", "MongoDB", "AI/ML", "Tailwind CSS"],
+    link: "https://github.com/Navya-Chaddha/TerraLoop.git"
 },
 {
-  title: "Task Management App",
-  description: "A collaborative project management tool with real-time updates, drag-and-drop boards, and team collaboration features.",
-  tech: ["TypeScript", "React", "Firebase"],
-  link: "#"
+  title: "Cointroller",
+  description: "This is a gamified financial tracker built in C to help students manage daily expenses.Developed during my first year, it uses file handling and structures to record, categorize, and analyze spending. The project focuses on bridging the gap between low-level programming and real-world utility for the youth.",
+  tech: ["C"],
+  link: "https://github.com/Navya-Chaddha/Cointroller.git"
 },
 {
-  title: "Portfolio Website",
-  description: "A responsive personal portfolio showcasing projects, skills, and professional experience with a warm, elegant design.",
-  tech: ["React", "Tailwind CSS", "Framer Motion"],
-  link: "#"
-},
+  title: "Zenith",
+  description: "A space-tech media platform I founded to simplify space science through an immersive e-newspaper experience.I integrated AI-driven insights and motion graphics to transform complex blogs into interactive journeys. By bridging the gap between text and visualization, Zenith makes space discovery accessible to everyone.",
+  tech: ["React", "TypeScript", "Framer Motion", "AI Integration"],
+  link: "https://github.com/Navya-Chaddha/v0-zenith-space-website-er.git"
+}
+];
+
+
+const resumeData = 
 {
-  title: "Blog Platform",
-  description: "A content management system with markdown support, SEO optimization, and analytics dashboard for tracking readership.",
-  tech: ["Next.js", "PostgreSQL", "Prisma"],
-  link: "#"
-}];
+  experience: 
+  [
+  { role: "Founder & Lead Developer", company: "Zenith", period: "2023 – Present", description: "Building a space-tech media platform to simplify space science for a global audience." },
+  ],
 
-
-const resumeData = {
-  experience: [
-  { role: "Software Developer", company: "Tech Company", period: "2022 – Present", description: "Building scalable web applications and leading frontend architecture decisions." },
-  { role: "Junior Developer", company: "Startup Inc.", period: "2020 – 2022", description: "Developed features for the core product and improved performance by 40%." }],
-
-  education: [
+  education: 
+  [
   { degree: "B.Sc. Computer Science", school: "University Name", period: "2016 – 2020" }]
 
 };
