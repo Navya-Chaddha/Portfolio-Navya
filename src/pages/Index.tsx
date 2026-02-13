@@ -108,7 +108,7 @@ const Index = () =>
           <div className="flex justify-center animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <div className="relative">
               <div className="w-72 h-72 md:w-96 md:h-96 rounded-2xl overflow-hidden border-4 border-primary/20 shadow-2xl">
-                <img alt="Profile photo" className="w-full h-full object-cover" src="/lovable-uploads/57f5b255-e9ec-4866-8b99-b16768be1fb6.png" />
+                <img src="/uploads/img1.png" alt="Navya Chaddha Profile" className="w-full h-full object-cover"/>
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 rounded-2xl -z-10" />
               <div className="absolute -top-4 -left-4 w-16 h-16 bg-secondary/20 rounded-full -z-10" />
