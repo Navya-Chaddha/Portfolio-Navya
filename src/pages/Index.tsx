@@ -11,8 +11,8 @@ const coreValues = [
 
 
 const skills = [
-"JavaScript", "TypeScript", "React", "Node.js", "Python", "HTML/CSS",
-"Git", "REST APIs", "SQL", "Tailwind CSS", "Figma", "Agile/Scrum"];
+"Java", "C/C++", "", "Computational Math", "Python", "NumPy",
+"Git", ", Pandas", "Matplotlib", "Differential & Integral Calculus", "HTML/CSS"];
 
 
 const projects = [
@@ -46,11 +46,21 @@ const resumeData =
 
   education: 
   [
-  { degree: "B.Sc. Computer Science", school: "University Name", period: "2016 – 2020" }]
-
+  {
+    degree: "B.Tech in Mathematics and Computing",
+    school: "Jaypee Institute of Information Technology (JIIT), Noida",
+    period: "2025 – 2029"
+  },
+  {
+    degree: "10+2",
+    school: "St. Mary's Convent Inter College Prayagraj ",
+    period: "2011-2025"
+  }
+]
 };
 
-const Index = () => {
+const Index = () =>
+   {
   const [currentValue, setCurrentValue] = useState(0);
   const [activeTab, setActiveTab] = useState<"skills" | "projects">("skills");
 
@@ -255,19 +265,19 @@ const Index = () => {
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <a href="mailto:your@email.com" className="flex flex-col items-center gap-3 bg-card border border-border rounded-2xl p-8 hover:border-primary/50 hover:shadow-lg transition-all group">
+            <a href="navya200407.chaddha@gmail.com" className="flex flex-col items-center gap-3 bg-card border border-border rounded-2xl p-8 hover:border-primary/50 hover:shadow-lg transition-all group">
               <Mail className="w-8 h-8 text-primary group-hover:scale-110 transition-transform" />
               <span className="font-body font-medium text-sm">Email</span>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-3 bg-card border border-border rounded-2xl p-8 hover:border-primary/50 hover:shadow-lg transition-all group">
+            <a href="https://www.linkedin.com/in/navya-chaddha-97434521b/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-3 bg-card border border-border rounded-2xl p-8 hover:border-primary/50 hover:shadow-lg transition-all group">
               <Linkedin className="w-8 h-8 text-primary group-hover:scale-110 transition-transform" />
               <span className="font-body font-medium text-sm">LinkedIn</span>
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-3 bg-card border border-border rounded-2xl p-8 hover:border-primary/50 hover:shadow-lg transition-all group">
+            <a href="https://github.com/Navya-Chaddha" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-3 bg-card border border-border rounded-2xl p-8 hover:border-primary/50 hover:shadow-lg transition-all group">
               <Github className="w-8 h-8 text-primary group-hover:scale-110 transition-transform" />
               <span className="font-body font-medium text-sm">GitHub</span>
             </a>
-            <a href="https://medium.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-3 bg-card border border-border rounded-2xl p-8 hover:border-primary/50 hover:shadow-lg transition-all group">
+            <a href="https://medium.com/@navya200407.chaddha" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-3 bg-card border border-border rounded-2xl p-8 hover:border-primary/50 hover:shadow-lg transition-all group">
               <BookOpen className="w-8 h-8 text-primary group-hover:scale-110 transition-transform" />
               <span className="font-body font-medium text-sm">Medium</span>
             </a>
