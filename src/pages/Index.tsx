@@ -11,8 +11,8 @@ const coreValues = [
 
 
 const skills = [
-"Java", "C/C++", "", "Computational Math", "Python", "NumPy",
-"Git", ", Pandas", "Matplotlib", "Differential & Integral Calculus", "HTML/CSS"];
+"Java", "C/C++", "Computational Math", "Python", "NumPy",
+"Git", "Matplotlib", "Differential & Integral Calculus", "HTML/CSS"];
 
 
 const projects = [
@@ -248,10 +248,10 @@ const Index = () =>
           </div>
 
           <div className="text-center">
-            <a href="#" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-body font-medium rounded-lg hover:opacity-90 transition-opacity">
-              <Download className="w-4 h-4" /> Download Resume
-            </a>
-          </div>
+  <a href="/uploads/Navya-resume.pdf" download="Navya_Chaddha_Resume.pdf" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-body font-medium rounded-lg hover:opacity-90 transition-opacity">
+    <Download className="w-4 h-4" /> Download Resume
+  </a>
+</div>
         </div>
       </section>
 
